@@ -54,4 +54,8 @@ public class Constellation {
                 ", isVisibleInBrazil=" + isVisibleInBrazil +
                 '}';
     }
+
+    public void addStar() {
+        this.amountOfStars = this.amountOfStars + 1;
+    }
 }
